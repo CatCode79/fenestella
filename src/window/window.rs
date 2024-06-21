@@ -41,7 +41,7 @@ pub struct Window {
 
     frame_budget: time::Duration,
     last_frame_instant: time::Instant,
-    last_frame_duration: time::Duration,  // It serves to compensate the velocity of the entities even during slow frames
+    last_frame_duration: time::Duration, // It serves to compensate the velocity of the entities even during slow frames
 }
 
 impl Window {
