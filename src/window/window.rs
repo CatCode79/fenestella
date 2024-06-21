@@ -465,6 +465,14 @@ impl Window {
         self.inner_size
     }
 
+    pub fn inner_width(&self) -> u16 {
+        self.inner_size.width
+    }
+
+    pub fn inner_height(&self) -> u16 {
+        self.inner_size.height
+    }
+
     pub fn is_minimized(&self) -> bool {
         self.minimized
     }
